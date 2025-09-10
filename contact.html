@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="logo-container">
+                <div class="logo"><i class="fas fa-globe-americas"></i></div>
+                <h4>TravelAgency</h4>
+            </div>
+            <li><a href="./travel_recommendation.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html" style="background-color: rgba(52, 152, 219, 0.3); color: #3498db;">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Get In Touch With Us</h1>
+    
+    <div class="main-content">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>We're here to assist you with all your travel needs. Reach out to us through any of the following methods:</p>
+            
+            <div class="info-item">
+                <div class="info-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <p>123 Adventure Lane, Travel City, TC 12345</p>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+1 (555) 123-TRAVEL</p>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p>info@travelagency.com</p>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div>
+                    <h3>Business Hours</h3>
+                    <p>Monday-Friday: 9am-7pm<br>Saturday: 10am-5pm<br>Sunday: 11am-4pm</p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <p>Have questions about your next adventure? Fill out the form below and we'll get back to you within 24 hours.</p>
+            
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+                </div>
+                
+                <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
