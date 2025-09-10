@@ -13,16 +13,24 @@
                 <h4>TravelAgency</h4>
             </div>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
             <div class="search-container">
                 <li><input type="search" id="search" name="search" placeholder="Enter a destination or Keyword"></li>
-                <li><button onclick="search()"><i class="fas fa-search"></i> Search</button></li>
-                <li><button onclick="clearSearch()"><i class="fas fa-times"></i> Clear</button></li>
+                <li><button id="searchBtn"><i class="fas fa-search"></i> Search</button></li>
+                <li><button id="clearBtn"><i class="fas fa-times"></i> Clear</button></li>
             </div>
         </ul>
     </nav>
     
+    <div class="main-content">
+        <h1>Travel Recommendations</h1>
+        <div id="resultsContainer" class="results-container">
+            <div class="loading">
+                <i class="fas fa-spinner fa-spin"></i> Loading recommendations...
+            </div>
+        </div>
+    </div>
     <div class="main-content">
         <h1>EXPLORE DREAM DESTINATION</h1>
         <p>We encourage you to explore more territories, see diverse cultures and landscapes, and create unforgettable memories that will last a lifetime. Your next adventure awaits!</p>
